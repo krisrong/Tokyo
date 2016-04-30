@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.cf { zoom: 1; } .cf::before, .cf::after { content: ""; display: table; } .cf::after { clear: both; }
+
+body {
+    margin: 0;  
+    padding: 0;
+    background: #A9E2F3;
+}
+#stage {
+    min-height: 100%;
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+}
+nav {
+    width: 950px;
+    background: #A4A4A4;
+    margin: 0 auto;
+}
+nav ul {
+    padding: 0;
+    
+}
+.nav_button {
+    float: left;
+    width: 150px;
+    height: 40px;
+    color: azure;
+    line-height: 40px;
+    text-align: center;
+    background-color: #610B38;
+    margin-right: 2px;
+}
+.nav_button:hover {
+    color: chartreuse;
+}
